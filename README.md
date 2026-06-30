@@ -43,7 +43,7 @@ Now lets compile it and inspect the disassembly output. Only using the main disa
 
 As you can see, The encoded bytes for the instructions listed are there. Some important instruction sets to look for when inspecting programs are;
 
-- mov - Values being passed to EAX/RAX with syscall around value (Right Oprand)
+- mov - Values being passed to EAX/RAX with syscall value (Right Oprand)
 - cmp - if-statement
 - test - if-statement
 
