@@ -1,6 +1,6 @@
 <div align="center">
     <h1>Reverse Engineer Tutorial</h1>
-    <p>Education Purposes Only</p>
+    <p>Educational Purposes Only</p>
 </div>
 
 # Inspecting an ELF Program
