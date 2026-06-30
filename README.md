@@ -9,8 +9,8 @@ In this tutorial, I will be showing how to view an ELF program and use the follo
 
 The following tools and//or documentation for information on syscalls
 - x86_64 syscall table (https://blog.rchapman.org/posts/Linux_System_Call_Table_for_x86_64/)
-- Disassembler - objdump is good
-- Hex Editor - open the elf
+- Disassembler - objdump
+- Hex Editor - HxD
 
 I added comments to the functions wrapping syscalls behind them.
 
@@ -110,3 +110,5 @@ Here we can see fopen call in the main function with 2 arguments being passed to
 If the null check was changed or removed this app then seg faults trying to process an invalid fopen and continue to execute further code relying on the file.
 
 You can then use the byte to the if statement, (48 83 7d f8 00) with the last value being the null/0. (00). You can find and replace this in a hex editor directly
+
+For runtime, You attach to the process and do the same thing by jumping around in it
